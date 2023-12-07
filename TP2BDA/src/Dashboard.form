@@ -4,7 +4,12 @@
     <constraints>
       <xy x="20" y="20" width="982" height="574"/>
     </constraints>
-    <properties/>
+    <properties>
+      <background color="-987931"/>
+      <enabled value="true"/>
+      <font name="Segoe UI Semibold"/>
+      <foreground color="-15328720"/>
+    </properties>
     <border type="none"/>
     <children>
       <grid id="f785d" layout-manager="GridLayoutManager" row-count="12" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
@@ -14,7 +19,9 @@
         </constraints>
         <properties>
           <background color="-987931"/>
-          <enabled value="false"/>
+          <enabled value="true"/>
+          <font name="Segoe UI Semibold"/>
+          <foreground color="-15328720"/>
         </properties>
         <border type="none"/>
         <children>
@@ -26,6 +33,8 @@
             </constraints>
             <properties>
               <background color="-987931"/>
+              <enabled value="true"/>
+              <font name="Segoe UI Semibold" size="16"/>
               <foreground color="-15328720"/>
               <text value="les noms des pays, leurs noms de capitales, et leurs langues"/>
             </properties>
@@ -38,6 +47,8 @@
             </constraints>
             <properties>
               <background color="-987931"/>
+              <enabled value="true"/>
+              <font name="Segoe UI Semibold" size="16"/>
               <foreground color="-15328720"/>
               <text value="toutes les villes du pays « Algeria »"/>
             </properties>
@@ -50,6 +61,8 @@
             </constraints>
             <properties>
               <background color="-987931"/>
+              <enabled value="true"/>
+              <font name="Segoe UI Semibold" size="16"/>
               <foreground color="-15328720"/>
               <text value="la ville la moins peuplée du pays « Algeria »"/>
             </properties>
@@ -62,6 +75,8 @@
             </constraints>
             <properties>
               <background color="-987931"/>
+              <enabled value="true"/>
+              <font name="Segoe UI Semibold" size="16"/>
               <foreground color="-15328720"/>
               <text value="la langue la plus parlée dans le monde."/>
             </properties>
@@ -74,6 +89,8 @@
             </constraints>
             <properties>
               <background color="-987931"/>
+              <enabled value="true"/>
+              <font name="Segoe UI Semibold" size="16"/>
               <foreground color="-15328720"/>
               <text value="les noms des pays ayant une expérience de vie inférieure à 50"/>
             </properties>
@@ -86,8 +103,10 @@
             </constraints>
             <properties>
               <background color="-987931"/>
+              <enabled value="true"/>
+              <font name="Segoe UI Semibold" size="16"/>
               <foreground color="-15328720"/>
-              <text value="les noms des pays du continent qui a le plus grand nombre de"/>
+              <text value="les noms des pays du continent qui a le plus grand nombre de pays."/>
             </properties>
           </component>
           <component id="e151b" class="javax.swing.JRadioButton" binding="rb8">
@@ -98,6 +117,8 @@
             </constraints>
             <properties>
               <background color="-987931"/>
+              <enabled value="true"/>
+              <font name="Segoe UI Semibold" size="16"/>
               <foreground color="-15328720"/>
               <text value="les noms des villes qui ne sont pas des capitales et qui appartiennent au continent asiatique."/>
             </properties>
@@ -110,6 +131,8 @@
             </constraints>
             <properties>
               <background color="-987931"/>
+              <enabled value="true"/>
+              <font name="Segoe UI Semibold" size="16"/>
               <foreground color="-15328720"/>
               <text value="la moyenne de la population du continent européen."/>
             </properties>
@@ -122,7 +145,10 @@
             </constraints>
             <properties>
               <background color="-13553587"/>
+              <enabled value="true"/>
+              <font name="Segoe UI Semibold" size="16" style="1"/>
               <foreground color="-4801596"/>
+              <hideActionText value="false"/>
               <text value="afficher les résultats"/>
             </properties>
           </component>
@@ -132,6 +158,8 @@
             </constraints>
             <properties>
               <background color="-987931"/>
+              <enabled value="true"/>
+              <font name="Segoe UI Semibold" size="16"/>
               <foreground color="-15328720"/>
               <text value="le nombre des pays."/>
             </properties>
@@ -142,8 +170,9 @@
             </constraints>
             <properties>
               <background color="-987931"/>
-              <font name="Verdana" size="36" style="1"/>
-              <foreground color="-15328720"/>
+              <enabled value="true"/>
+              <font name="Segoe UI Semibold" size="36" style="1"/>
+              <foreground color="-13553587"/>
               <text value="Tableau de bord"/>
             </properties>
           </component>
@@ -151,13 +180,22 @@
             <constraints>
               <grid row="11" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
             </constraints>
-            <properties/>
+            <properties>
+              <background color="-987931"/>
+              <enabled value="true"/>
+              <font name="Segoe UI Semibold" size="16"/>
+              <foreground color="-15328720"/>
+            </properties>
             <border type="none"/>
             <children>
               <component id="5e8" class="javax.swing.JTable" binding="table1" default-binding="true">
                 <constraints/>
                 <properties>
                   <background color="-987931"/>
+                  <enabled value="true"/>
+                  <font name="Segoe UI Semibold" size="14"/>
+                  <foreground color="-15328720"/>
+                  <intercellSpacing width="-1" height="-1"/>
                 </properties>
               </component>
             </children>

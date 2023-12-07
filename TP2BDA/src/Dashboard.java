@@ -42,7 +42,10 @@ public class Dashboard {
                 if (rb1.isSelected()) {
                     executeQuery("SELECT COUNT(*) FROM country");
                 } else if (rb2.isSelected()) {
-                    executeQuery("SELECT country.Name AS CountryName, city.Name AS CapitalName, countrylanguage.Language\n" + "FROM country\n" + "JOIN city ON country.Capital = city.ID\n" + "JOIN countrylanguage ON country.Code = countrylanguage.CountryCode;\n");
+                    executeQuery("SELECT country.Name AS CountryName, city.Name AS CapitalName, " +
+                            "GROUP_CONCAT(countrylanguage.Language SEPARATOR ', ') AS Languages FROM country " +
+                            "JOIN city ON country.Capital = city.ID " +
+                            "JOIN countrylanguage ON country.Code = countrylanguage.CountryCode GROUP BY country.Name, city.Name");
                 } else if (rb3.isSelected()) {
                     executeQuery("SELECT Name FROM city WHERE CountryCode = 'DZA'");
                 } else if (rb4.isSelected()) {
@@ -52,12 +55,12 @@ public class Dashboard {
                 } else if (rb6.isSelected()) {
                     executeQuery("SELECT Name FROM country WHERE LifeExpectancy < 50");
                 } else if (rb7.isSelected()) {
-                    executeQuery("SELECT Continent, COUNT(*) AS count FROM country GROUP BY Continent ORDER BY count DESC LIMIT 1");
+                    executeQuery("SELECT country.Name AS CountryName FROM country " +
+                            "JOIN (SELECT Continent, COUNT(*) AS count FROM country " +
+                            "GROUP BY Continent ORDER BY count DESC LIMIT 1) AS maxContinent ON country.Continent = maxContinent.Continent");
                 } else if (rb8.isSelected()) {
-                    executeQuery("SELECT city.Name\n" +
-                            "FROM city\n" +
-                            "JOIN country ON city.CountryCode = country.Code\n" +
-                            "WHERE country.Capital <> city.ID AND country.Continent = 'Asia';\n");
+                    executeQuery("SELECT city.Name FROM city " +
+                            "JOIN country ON city.CountryCode = country.Code WHERE country.Capital <> city.ID AND country.Continent = 'Asia'");
                 } else if (rb9.isSelected()) {
                     executeQuery("SELECT AVG(Population) FROM country WHERE Continent = 'Europe'");
                 }
