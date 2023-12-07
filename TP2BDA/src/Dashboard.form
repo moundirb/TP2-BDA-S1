@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Dashboard">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="CardLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="982" height="574"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="f785d" layout-manager="GridLayoutManager" row-count="12" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <card name="Card1"/>
+        </constraints>
+        <properties>
+          <background color="-987931"/>
+          <enabled value="false"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="99386" class="javax.swing.JRadioButton" binding="rb2">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="486" height="21"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-987931"/>
+              <foreground color="-15328720"/>
+              <text value="les noms des pays, leurs noms de capitales, et leurs langues"/>
+            </properties>
+          </component>
+          <component id="59771" class="javax.swing.JRadioButton" binding="rb3">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="486" height="21"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-987931"/>
+              <foreground color="-15328720"/>
+              <text value="toutes les villes du pays « Algeria »"/>
+            </properties>
+          </component>
+          <component id="4d185" class="javax.swing.JRadioButton" binding="rb4">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="486" height="21"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-987931"/>
+              <foreground color="-15328720"/>
+              <text value="la ville la moins peuplée du pays « Algeria »"/>
+            </properties>
+          </component>
+          <component id="af47f" class="javax.swing.JRadioButton" binding="rb5">
+            <constraints>
+              <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="486" height="21"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-987931"/>
+              <foreground color="-15328720"/>
+              <text value="la langue la plus parlée dans le monde."/>
+            </properties>
+          </component>
+          <component id="c00e8" class="javax.swing.JRadioButton" binding="rb6">
+            <constraints>
+              <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="486" height="21"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-987931"/>
+              <foreground color="-15328720"/>
+              <text value="les noms des pays ayant une expérience de vie inférieure à 50"/>
+            </properties>
+          </component>
+          <component id="33fea" class="javax.swing.JRadioButton" binding="rb7">
+            <constraints>
+              <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="486" height="21"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-987931"/>
+              <foreground color="-15328720"/>
+              <text value="les noms des pays du continent qui a le plus grand nombre de"/>
+            </properties>
+          </component>
+          <component id="e151b" class="javax.swing.JRadioButton" binding="rb8">
+            <constraints>
+              <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="486" height="21"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-987931"/>
+              <foreground color="-15328720"/>
+              <text value="les noms des villes qui ne sont pas des capitales et qui appartiennent au continent asiatique."/>
+            </properties>
+          </component>
+          <component id="467d1" class="javax.swing.JRadioButton" binding="rb9">
+            <constraints>
+              <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="486" height="19"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-987931"/>
+              <foreground color="-15328720"/>
+              <text value="la moyenne de la population du continent européen."/>
+            </properties>
+          </component>
+          <component id="f720a" class="javax.swing.JButton" binding="jb1">
+            <constraints>
+              <grid row="10" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="210" height="30"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-13553587"/>
+              <foreground color="-4801596"/>
+              <text value="afficher les résultats"/>
+            </properties>
+          </component>
+          <component id="aaf2c" class="javax.swing.JRadioButton" binding="rb1">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-987931"/>
+              <foreground color="-15328720"/>
+              <text value="le nombre des pays."/>
+            </properties>
+          </component>
+          <component id="8fd3" class="javax.swing.JLabel" binding="lable1">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-987931"/>
+              <font name="Verdana" size="36" style="1"/>
+              <foreground color="-15328720"/>
+              <text value="Tableau de bord"/>
+            </properties>
+          </component>
+          <scrollpane id="aca1d">
+            <constraints>
+              <grid row="11" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="5e8" class="javax.swing.JTable" binding="table1" default-binding="true">
+                <constraints/>
+                <properties>
+                  <background color="-987931"/>
+                </properties>
+              </component>
+            </children>
+          </scrollpane>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
